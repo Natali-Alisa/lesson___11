@@ -1,0 +1,165 @@
+@font-face {
+    font-family:"Lato";
+    src: url("../fonts/Lato/Lato-Black.woff2") format("woff2"), url("../fonts/Lato/Lato-Black.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family:"Lato";
+    src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+@font-face {
+    font-family:"Lato";
+    src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;    
+}
+
+body {
+    font-family: "Lato";
+}
+
+.wrapper {
+    background-image: linear-gradient(90deg, #9cc4ab,#70bda0,#21b59c);
+
+}
+.header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    
+}
+.header__title {
+    font-weight: 700;
+    font-size: 35px;
+    padding: 20px 0;
+    line-height: 1.5;
+    text-align: center;
+    border: solid 1px #3ea389;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background: #3ea389;
+    background-image: linear-gradient(90deg, #60c1c2,#fabbd7)
+}
+
+.main__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main__text {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 22px;
+    padding: 20px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.main__text--bold {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 22px;
+    padding: 20px 0;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.list {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img img{
+    padding: 20px;
+    max-width: 800px;
+    min-width: 200px;
+}
+
+.list ul {
+    margin: 20px;
+    line-height: 2;
+    font-size: 22px;
+    font-weight: 700;
+    color: #135544;
+}
+
+h2 {
+    position: sticky;
+    top: 5px;
+    font-weight: 700;
+    font-size: 27px;
+    padding: 20px 0;
+    line-height: 1.5;
+    text-align: center;
+    border: solid 1px #3ea389;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    background: #3ea389;
+    background-image: linear-gradient(90deg, #60c1c2,#fabbd7)
+}
+
+.footer p {
+    position: fixed;
+    bottom: 1px;
+    left: 50%;
+    font-weight: 900;
+    font-size: 27px;
+    padding: 0px 0;
+    letter-spacing: 5px;
+    text-transform: uppercase ;
+    text-align: center;
+    color: #2b4f92;
+
+}
+
+.main__text--size {
+    margin-bottom: 40px;
+}
+
+.list ul li:hover {
+    color: rgb(25, 92, 168);
+    position: relative;
+    bottom: 2px;
+}
+
+.list ul li:active {
+    color: rgb(152, 13, 180);
+}
+
+
+.blok {
+    padding-bottom: 30px;
+}
+
+.avto {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    position: relative
+
+}
+.avto__koleco {
+    position: absolute;
+    left: 100px;
+    bottom: 8px;
+}
+
+.avto__koleco2 {
+    position: absolute;
+    left: 600px;
+    bottom: 8px;
+}
+.avto:hover {
+    right: 200px;
+}
